@@ -1,0 +1,58 @@
+{
+"data": {
+"provinces": {
+"1": "Koshi Province",
+"2": "Madhesh Province",
+"3": "Bagmati Province",
+"4": "Gandaki Province",
+"5": "Lumbini Province",
+"6": "Karnali Province",
+"7": "Sundarpashchim Province"
+},
+"cities": {
+"128": "Bhojpur",
+"129": "Dhankuta",
+"130": "Ilam",
+"131": "Jhapa",
+"132": "Khotang",
+"133": "Morang",
+"134": "Okhaldhunga",
+"135": "Panchthar",
+"136": "Sankhuwasabha",
+"137": "Solukhumbu",
+"138": "Sunsari",
+"139": "Taplejung",
+"140": "Terhathum",
+"141": "Udayapur"
+},
+"areas": {
+"1": "Bhaktapur Municipality",
+"3": "Changunarayan Municipality",
+"4": "Madhyapur Municipality",
+"5": "Suryavinayak Municipality"
+},
+"countries": [],
+"iaddress": null,
+"carts": [
+{
+"id": "645",
+"quantity": "1",
+"total_weight": "0.3",
+"total_amount": "7500"
+}
+],
+"total_weight": 0.3,
+"total_amount": 7500,
+"shipping_charge": 0,
+"customer": {
+"id": 2,
+"name": "Susan Chikanbanjar",
+"email": "schandboy@gmail.com",
+"phone": "9843352492",
+"province_id": 1,
+"city_id": 2,
+"area_id": 21,
+"street": null
+}
+}
+}
