@@ -1,0 +1,5285 @@
+{
+"data": [
+{
+"code": "UTL01",
+"name": "Utility",
+"description": "UTILITY SERVICE",
+"hasSubCategory": "Y",
+"icon": null,
+"subCategories": [
+{
+"name": "Donation",
+"code": "UTL-DONATION",
+"description": "Donation Service",
+"icon": null,
+"billerInformationList": [
+{
+"billerId": "d002",
+"name": "Chief Advisor's Relief and Welfare Fund",
+"description": "Chief Advisor's Relief and Welfare Fund",
+"fieldMetaList": [
+{
+"name": "donationAmount",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 6,
+"maxLength": 9,
+"isPayableAmount": "Y",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Enter Amount",
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "Y",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 2,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Donation Amount"
+}
+]
+},
+{
+"name": "remarks",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 50,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Enter remarks",
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 3,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Remarks"
+}
+]
+},
+{
+"name": "donorName",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 50,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Enter donor name",
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "Y",
+"sequence": 1,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Donor Name"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+}
+],
+"icon": null,
+"billInfo": {
+"actionUrl": "/donation-biller/v1/donation/info",
+"requestParams": {
+"donationAmount": ""
+}
+},
+"billPayment": {
+"actionUrl": "/donation-biller/v1/donation/payment",
+"requestParams": {
+"donationAmount": "",
+"remarks": "",
+"donorName": ""
+}
+}
+},
+{
+"billerId": "d004",
+"name": "Odommo Bangladesh Foundation",
+"description": "Odommo Bangladesh Foundation",
+"fieldMetaList": [
+{
+"name": "donationAmount",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 6,
+"maxLength": 9,
+"isPayableAmount": "Y",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Enter Amount",
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "Y",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 2,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Donation Amount"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "donorName",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 50,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Enter donor name",
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "Y",
+"sequence": 1,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Your Name"
+}
+]
+},
+{
+"name": "remarks",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 50,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Enter remarks",
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 3,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Remarks"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+}
+],
+"icon": null,
+"billInfo": {
+"actionUrl": "/donation-biller/v1/donation/info",
+"requestParams": {
+"donationAmount": ""
+}
+},
+"billPayment": {
+"actionUrl": "/donation-biller/v1/donation/payment",
+"requestParams": {
+"donationAmount": "",
+"donorName": "",
+"remarks": ""
+}
+}
+},
+{
+"billerId": "d003",
+"name": "Banani Society",
+"description": "Banani Society",
+"fieldMetaList": [
+{
+"name": "donationAmount",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 6,
+"maxLength": 9,
+"isPayableAmount": "Y",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Enter Amount",
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "Y",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 2,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Donation Amount"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "remarks",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 50,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Enter remarks",
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 3,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Remarks"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "donorName",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 50,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Enter donor name",
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "Y",
+"sequence": 1,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Donor Name"
+}
+]
+}
+],
+"icon": null,
+"billInfo": {
+"actionUrl": "/donation-biller/v1/donation/info",
+"requestParams": {
+"donationAmount": ""
+}
+},
+"billPayment": {
+"actionUrl": "/donation-biller/v1/donation/payment",
+"requestParams": {
+"donationAmount": "",
+"remarks": "",
+"donorName": ""
+}
+}
+},
+{
+"billerId": "d001",
+"name": "Mastul Foundation",
+"description": "Mastul Foundation",
+"fieldMetaList": [
+{
+"name": "donorName",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 50,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Enter donor name",
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "Y",
+"sequence": 1,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Donor Name"
+}
+]
+},
+{
+"name": "remarks",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 50,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Enter remarks",
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 3,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Remarks"
+}
+]
+},
+{
+"name": "donationAmount",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 6,
+"maxLength": 9,
+"isPayableAmount": "Y",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Enter Amount",
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "Y",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 2,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Donation Amount"
+}
+]
+}
+],
+"icon": null,
+"billInfo": {
+"actionUrl": "/donation-biller/v1/donation/info",
+"requestParams": {
+"donationAmount": ""
+}
+},
+"billPayment": {
+"actionUrl": "/donation-biller/v1/donation/payment",
+"requestParams": {
+"donorName": "",
+"remarks": "",
+"donationAmount": ""
+}
+}
+}
+]
+},
+{
+"name": "Water",
+"code": "UTL-WATER",
+"description": "Water Service",
+"icon": null,
+"billerInformationList": [
+{
+"billerId": "w001",
+"name": "Khulna WASA",
+"description": "Khulna Wasa",
+"fieldMetaList": [
+{
+"name": "billType",
+"fieldType": "select",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": "M",
+"textAlign": "left",
+"placeholder": "Select Biller Type",
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "N",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 2,
+"isMandatory": "Y",
+"options": [
+{
+"name": "Metered",
+"value": "M"
+}
+],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " ধ "
+},
+{
+"language": "en",
+"label": "Customer Type"
+}
+]
+},
+{
+"name": "billAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 6,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Bill Amount"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "billAccountNumber",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 3,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Bill Account Number"
+}
+]
+},
+{
+"name": "fromDate",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 5,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 4,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "From Date"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "toDate",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 5,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 5,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "To Date"
+}
+]
+},
+{
+"name": "vat",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 7,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "VAT"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "totalBillAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "Y",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 8,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Total Bill Amount"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "billNumber",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 4,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Input Bill Number",
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "Y",
+"sequence": 1,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Bill Number"
+}
+]
+}
+],
+"icon": null,
+"billInfo": {
+"actionUrl": "/dynamic-biller/v1/fetch/bill/info",
+"requestParams": {
+"billType": "",
+"billNumber": ""
+}
+},
+"billPayment": {
+"actionUrl": "/dynamic-biller/v1/bill/payment",
+"requestParams": {
+"billAmount": "",
+"billAccountNumber": "",
+"fromDate": "",
+"toDate": "",
+"vat": "",
+"totalBillAmount": "",
+"billNumber": ""
+}
+}
+},
+{
+"billerId": "w003",
+"name": "Rajshahi WASA",
+"description": "Rajshahi Wasa",
+"fieldMetaList": [
+{
+"name": "vat",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 3,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "VAT"
+}
+]
+},
+{
+"name": "totalBillAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "Y",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 4,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Total Bill Amount"
+}
+]
+},
+{
+"name": "billAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 2,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Bill Amount"
+}
+]
+},
+{
+"name": "billNumber",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 2,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Input Bill Number",
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "Y",
+"sequence": 1,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Bill Number"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+}
+],
+"icon": null,
+"billInfo": {
+"actionUrl": "/dynamic-biller/v1/fetch/bill/info",
+"requestParams": {
+"billNumber": ""
+}
+},
+"billPayment": {
+"actionUrl": "/dynamic-biller/v1/bill/payment",
+"requestParams": {
+"totalBillAmount": "",
+"billNumber": ""
+}
+}
+},
+{
+"billerId": "w002",
+"name": "Dhaka WASA",
+"description": "Dhaka Wasa",
+"fieldMetaList": [
+{
+"name": "sewerCharges",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 5,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Sewer Charges"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "totalBillAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "Y",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 8,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Total Bill Amount"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "fixedCharges",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 4,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Fixed Charges"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "vat",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 7,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "VAT"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "billNumber",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 4,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Input Bill Number",
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "Y",
+"sequence": 2,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Bill Number"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "billAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 3,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Bill Amount"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "billAccountNumber",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 4,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "Y",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 1,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Bill Account Number"
+}
+]
+},
+{
+"name": "lateFee",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 6,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Late Fee"
+}
+]
+}
+],
+"icon": null,
+"billInfo": {
+"actionUrl": "/dynamic-biller/v1/fetch/bill/info",
+"requestParams": {
+"billNumber": ""
+}
+},
+"billPayment": {
+"actionUrl": "/dynamic-biller/v1/bill/payment",
+"requestParams": {
+"totalBillAmount": "",
+"billNumber": "",
+"billAccountNumber": ""
+}
+}
+}
+]
+},
+{
+"name": "TV",
+"code": "UTL-TV",
+"description": "TV Recharge",
+"icon": null,
+"billerInformationList": [
+{
+"billerId": "t001",
+"name": "AKASH Digital TV",
+"description": "AKASH Digital TV",
+"fieldMetaList": [
+{
+"name": "rechargeAmount",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 15,
+"isPayableAmount": "Y",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": "Input Recharge Amount",
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 3,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Recharge Amount"
+}
+]
+},
+{
+"name": "accountName",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 100,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 2,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Subscriber Name"
+}
+]
+},
+{
+"name": "billNumber",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 8,
+"maxLength": 8,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Input Subscriber ID",
+"validationRegex": null,
+"isBeneficiaryField": "Y",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "Y",
+"sequence": 1,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Subscriber ID"
+}
+]
+}
+],
+"icon": null,
+"billInfo": {
+"actionUrl": "/sundry-biller/v1/validate/akash/account",
+"requestParams": {
+"billNumber": ""
+}
+},
+"billPayment": {
+"actionUrl": "/sundry-biller/v1/recharge/akash/account",
+"requestParams": {
+"rechargeAmount": "",
+"accountName": "",
+"billNumber": ""
+}
+}
+}
+]
+},
+{
+"name": "Electricity",
+"code": "UTL-ELECTRICITY",
+"description": "Electricity Service",
+"icon": null,
+"billerInformationList": [
+{
+"billerId": "e003",
+"name": "DESCO Postpaid",
+"description": "Dhaka Electric Supply Company",
+"fieldMetaList": [
+{
+"name": "lateFee",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 7,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Late Fee"
+}
+]
+},
+{
+"name": "accountNumber",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 2,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "Y",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 1,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Bill Account Number"
+}
+]
+},
+{
+"name": "fromDate",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 5,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 3,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "From Date"
+}
+]
+},
+{
+"name": "totalBillAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "Y",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 9,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Total Bill Amount"
+}
+]
+},
+{
+"name": "toDate",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 5,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 4,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "To Date"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "vat",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 8,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "VAT"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "billAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 6,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Bill Amount"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "billDueDate",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 5,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 5,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Bill Due Date"
+},
+{
+"language": "bn",
+"label": " ধ "
+}
+]
+},
+{
+"name": "billNumber",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 4,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Input Bill Number",
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "Y",
+"sequence": 2,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Bill Number"
+}
+]
+}
+],
+"icon": null,
+"billInfo": {
+"actionUrl": "/dynamic-biller/v1/fetch/bill/info",
+"requestParams": {
+"billNumber": ""
+}
+},
+"billPayment": {
+"actionUrl": "/dynamic-biller/v1/bill/payment",
+"requestParams": {
+"accountNumber": "",
+"fromDate": "",
+"totalBillAmount": "",
+"toDate": "",
+"billNumber": ""
+}
+}
+},
+{
+"billerId": "e006",
+"name": "DESCO Prepaid",
+"description": "Dhaka Power Distribution Company",
+"fieldMetaList": [
+{
+"name": "energyCost",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 10,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 4,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en ",
+"label": "Energy Cost"
+},
+{
+"language": "bn",
+"label": "Energy Cost(bn)"
+}
+]
+},
+{
+"name": "billVat",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 10,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 8,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "VAT"
+},
+{
+"language": "bn",
+"label": "VAT(bn)"
+}
+]
+},
+{
+"name": "meterRent",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 10,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 6,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Meter Rent"
+},
+{
+"language": "bn",
+"label": "Meter Rent(bn)"
+}
+]
+},
+{
+"name": "rebate",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 10,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 7,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": "Rebate(bn)"
+},
+{
+"language": "en",
+"label": "Rebate"
+}
+]
+},
+{
+"name": "billAccount",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Biller Account",
+"validationRegex": null,
+"isBeneficiaryField": "Y",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "Y",
+"sequence": 1,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Biller Account"
+},
+{
+"language": "bn",
+"label": "Biller Account(bn)"
+}
+]
+},
+{
+"name": "rechargeAmount",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 10,
+"isPayableAmount": "Y",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": "Recharge Amount",
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "Y",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 3,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Recharge Amount"
+},
+{
+"language": "bn",
+"label": "Recharge Amount(bn)"
+}
+]
+},
+{
+"name": "mobileNumber",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 11,
+"maxLength": 12,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Mobile Number",
+"validationRegex": null,
+"isBeneficiaryField": "Y",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 2,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Mobile Number"
+},
+{
+"language": "bn",
+"label": "Mobile Number(bn)"
+}
+]
+},
+{
+"name": "demandCharge",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 10,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 5,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Demand Charge"
+},
+{
+"language": "bn",
+"label": "Demand Charge(bn)"
+}
+]
+}
+],
+"icon": null,
+"billInfo": {
+"actionUrl": "/dynamic-biller/v1/fetch/bill/info",
+"requestParams": {
+"billAccount": "",
+"rechargeAmount": "",
+"mobileNumber": ""
+}
+},
+"billPayment": {
+"actionUrl": "/dynamic-biller/v1/bill/payment",
+"requestParams": {
+"billAccount": "",
+"rechargeAmount": "",
+"mobileNumber": ""
+}
+}
+},
+{
+"billerId": "e007",
+"name": "NESCO Prepaid",
+"description": "Northern Electricity Supply Company Ltd.",
+"fieldMetaList": [
+{
+"name": "rechargeAmount",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 10,
+"isPayableAmount": "Y",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": "Recharge Amount",
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "Y",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 2,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": "Recharge Amount(bn)"
+},
+{
+"language": "en",
+"label": "Recharge Amount"
+}
+]
+},
+{
+"name": "rebate",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 10,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 7,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": "Rebate(bn)"
+},
+{
+"language": "en",
+"label": "Rebate"
+}
+]
+},
+{
+"name": "billAccount",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Biller Account",
+"validationRegex": null,
+"isBeneficiaryField": "Y",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "Y",
+"sequence": 1,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": "Biller Account(bn)"
+},
+{
+"language": "en",
+"label": "Biller Account"
+}
+]
+},
+{
+"name": "demandCharge",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 10,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 5,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Demand Charge"
+},
+{
+"language": "bn",
+"label": "Demand Charge(bn)"
+}
+]
+},
+{
+"name": "meterRent",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 10,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 6,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": "Meter Rent(bn)"
+},
+{
+"language": "en",
+"label": "Meter Rent"
+}
+]
+},
+{
+"name": "customerName",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 100,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 3,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": "Customer Name(bn)"
+},
+{
+"language": "en",
+"label": "Customer Name"
+}
+]
+},
+{
+"name": "billVat",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 10,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 8,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "VAT"
+},
+{
+"language": "bn",
+"label": "VAT(bn)"
+}
+]
+},
+{
+"name": "energyCost",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 10,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 4,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": "Energy Cost(bn)"
+},
+{
+"language": "en",
+"label": "Energy Cost"
+}
+]
+}
+],
+"icon": null,
+"billInfo": {
+"actionUrl": "/dynamic-biller/v1/fetch/bill/info",
+"requestParams": {
+"rechargeAmount": "",
+"billAccount": ""
+}
+},
+"billPayment": {
+"actionUrl": "/dynamic-biller/v1/bill/payment",
+"requestParams": {
+"rechargeAmount": "",
+"billAccount": ""
+}
+}
+},
+{
+"billerId": "e002",
+"name": "West Zone Postpaid",
+"description": "West Zone Postpaid",
+"fieldMetaList": [
+{
+"name": "accountNumber",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Input Bill Account Number",
+"validationRegex": null,
+"isBeneficiaryField": "Y",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 1,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Bill Account Number"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "billDueDate",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 5,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 3,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " ধ "
+},
+{
+"language": "en",
+"label": "Bill Due Date"
+}
+]
+},
+{
+"name": "totalAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "Y",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 6,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Total Bill Amount"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "vatAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 5,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "VAT"
+}
+]
+},
+{
+"name": "billAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 4,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Bill Amount"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "billNumber",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "Y",
+"sequence": 2,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Bill Number"
+}
+]
+}
+],
+"icon": null,
+"billInfo": {
+"actionUrl": "/dynamic-biller/v1/fetch/bill/info",
+"requestParams": {
+"accountNumber": ""
+}
+},
+"billPayment": {
+"actionUrl": "/dynamic-biller/v1/bill/payment",
+"requestParams": {
+"accountNumber": "",
+"billDueDate": "",
+"totalAmount": "",
+"billNumber": ""
+}
+}
+},
+{
+"billerId": "e005",
+"name": "Palli Bidyut",
+"description": "Palli Bidyut",
+"fieldMetaList": [
+{
+"name": "mobileNumber",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Input Mobile Number",
+"validationRegex": null,
+"isBeneficiaryField": "Y",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 2,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Mobile Number"
+}
+]
+},
+{
+"name": "dueAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "Y",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 5,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Due Amount"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "dueDate",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 7,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Due Date"
+},
+{
+"language": "bn",
+"label": " ধ "
+}
+]
+},
+{
+"name": "accountNumber",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Input SMS Account Number",
+"validationRegex": null,
+"isBeneficiaryField": "Y",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 1,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": "এ এ এ "
+},
+{
+"language": "en",
+"label": "SMS Account Number"
+}
+]
+},
+{
+"name": "billMonth",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 12,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 4,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Bill Month"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "dueType",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 50,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 6,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " ধ "
+},
+{
+"language": "en",
+"label": "Due Type"
+}
+]
+},
+{
+"name": "billNumber",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "Y",
+"sequence": 3,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Bill Number"
+}
+]
+}
+],
+"icon": null,
+"billInfo": {
+"actionUrl": "/sundry-biller/v1/breb/fetch/bill/info",
+"requestParams": {
+"mobileNumber": "",
+"accountNumber": ""
+}
+},
+"billPayment": {
+"actionUrl": "/sundry-biller/v1/breb/bill/payment",
+"requestParams": {
+"mobileNumber": "",
+"dueAmount": "",
+"accountNumber": "",
+"billNumber": ""
+}
+}
+},
+{
+"billerId": "e004",
+"name": "NESCO Postpaid",
+"description": "Northern Electricity Supply Company Ltd.",
+"fieldMetaList": [
+{
+"name": "billAccountNumber",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 2,
+"maxLength": 10,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 2,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Bill Account Number"
+}
+]
+},
+{
+"name": "billAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 4,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Bill Amount"
+}
+]
+},
+{
+"name": "totalBillAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "Y",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 7,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Total Bill Amount"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "lateFee",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 5,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Late Fee"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "vat",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 6,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "VAT"
+}
+]
+},
+{
+"name": "billNumber",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Input Bill Number",
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "Y",
+"sequence": 1,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Bill Number"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "billDueDate",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 5,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 3,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Bill Due Date"
+},
+{
+"language": "bn",
+"label": " ধ "
+}
+]
+}
+],
+"icon": null,
+"billInfo": {
+"actionUrl": "/dynamic-biller/v1/fetch/bill/info",
+"requestParams": {
+"billNumber": ""
+}
+},
+"billPayment": {
+"actionUrl": "/dynamic-biller/v1/bill/payment",
+"requestParams": {
+"billAccountNumber": "",
+"totalBillAmount": "",
+"billNumber": "",
+"billDueDate": ""
+}
+}
+},
+{
+"billerId": "e001",
+"name": "DPDC Postpaid",
+"description": "Dhaka Power Distribution Company",
+"fieldMetaList": [
+{
+"name": "fromDate",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 5,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 5,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "From Date"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "accountCode",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 2,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Input Account Code",
+"validationRegex": null,
+"isBeneficiaryField": "Y",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 1,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Account Code"
+}
+]
+},
+{
+"name": "billDueDate",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 5,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 6,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " ধ "
+},
+{
+"language": "en",
+"label": "Bill Due Date"
+}
+]
+},
+{
+"name": "billAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 7,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Bill Amount"
+}
+]
+},
+{
+"name": "vat",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 8,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "VAT"
+}
+]
+},
+{
+"name": "billMonth",
+"fieldType": "select",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 6,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Select Bill Month",
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "N",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 3,
+"isMandatory": "Y",
+"options": [
+{
+"name": "January",
+"value": "01"
+},
+{
+"name": "February",
+"value": "02"
+},
+{
+"name": "March",
+"value": "03"
+},
+{
+"name": "April",
+"value": "04"
+},
+{
+"name": "May",
+"value": "05"
+},
+{
+"name": "June",
+"value": "06"
+},
+{
+"name": "July",
+"value": "07"
+},
+{
+"name": "August",
+"value": "08"
+},
+{
+"name": "September",
+"value": "09"
+},
+{
+"name": "October",
+"value": "10"
+},
+{
+"name": "November",
+"value": "11"
+},
+{
+"name": "December",
+"value": "12"
+}
+],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Bill Month"
+}
+]
+},
+{
+"name": "billYear",
+"fieldType": "select",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 6,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Select Bill Year",
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "N",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 2,
+"isMandatory": "Y",
+"options": [
+{
+"name": "2023",
+"value": "2023"
+},
+{
+"name": "2024",
+"value": "2024"
+}
+],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Bill Year"
+},
+{
+"language": "bn",
+"label": " ছ "
+}
+]
+},
+{
+"name": "totalBillAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "Y",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 9,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Total Bill Amount"
+}
+]
+},
+{
+"name": "billNumber",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "Y",
+"sequence": 4,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Bill Number"
+}
+]
+}
+],
+"icon": null,
+"billInfo": {
+"actionUrl": "/dynamic-biller/v1/fetch/bill/info",
+"requestParams": {
+"accountCode": "",
+"billMonth": "",
+"billYear": ""
+}
+},
+"billPayment": {
+"actionUrl": "/dynamic-biller/v1/bill/payment",
+"requestParams": {
+"accountCode": "",
+"billDueDate": "",
+"totalBillAmount": "",
+"billNumber": ""
+}
+}
+}
+]
+},
+{
+"name": "Universal Pension",
+"code": "UTL-PENSION",
+"description": "Government Services",
+"icon": null,
+"billerInformationList": [
+{
+"billerId": "gov002",
+"name": "Somota ",
+"description": "Government Universal Pension",
+"fieldMetaList": [
+{
+"name": "applicableFine",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 15,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 8,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Applicable Fine"
+}
+]
+},
+{
+"name": "numberInstallDue",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 10,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 6,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "No. of Installment Due"
+}
+]
+},
+{
+"name": "pensionId",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 17,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "Y",
+"sequence": 2,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Pension ID"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "customerName",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 100,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 3,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Name"
+}
+]
+},
+{
+"name": "schemeName",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 4,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Scheme"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "pensionIdOrNationalId",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 17,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Input PID/NID",
+"validationRegex": null,
+"isBeneficiaryField": "Y",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 1,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "NID/PID"
+},
+{
+"language": "bn",
+"label": "এ / "
+}
+]
+},
+{
+"name": "installmentAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 5,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Installment Amount"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "dueAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 17,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 7,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Due Amount"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "payableAmount",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "Y",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 9,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Total Due Amount"
+}
+]
+}
+],
+"icon": null,
+"billInfo": {
+"actionUrl": "/sundry-biller/v1/pension/fetch/bill/info",
+"requestParams": {
+"pensionIdOrNationalId": ""
+}
+},
+"billPayment": {
+"actionUrl": "/sundry-biller/v1/pension/bill/payment",
+"requestParams": {
+"pensionId": "",
+"pensionIdOrNationalId": "",
+"payableAmount": ""
+}
+}
+},
+{
+"billerId": "gov003",
+"name": "Progoti ",
+"description": "Government Universal Pension",
+"fieldMetaList": [
+{
+"name": "applicableFine",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 15,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 8,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Applicable Fine"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "numberInstallDue",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 10,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 6,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "No. of Installment Due"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "customerName",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 100,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 3,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Name"
+}
+]
+},
+{
+"name": "installmentAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 5,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Installment Amount"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "payableAmount",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "Y",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 9,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Total Due Amount"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "pensionId",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 17,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "Y",
+"sequence": 2,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Pension ID"
+}
+]
+},
+{
+"name": "pensionIdOrNationalId",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 17,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Input PID/NID",
+"validationRegex": null,
+"isBeneficiaryField": "Y",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 1,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "NID/PID"
+},
+{
+"language": "bn",
+"label": "এ / "
+}
+]
+},
+{
+"name": "schemeName",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 4,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Scheme"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "dueAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 7,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Due Amount"
+}
+]
+}
+],
+"icon": null,
+"billInfo": {
+"actionUrl": "/sundry-biller/v1/pension/fetch/bill/info",
+"requestParams": {
+"pensionIdOrNationalId": ""
+}
+},
+"billPayment": {
+"actionUrl": "/sundry-biller/v1/pension/bill/payment",
+"requestParams": {
+"payableAmount": "",
+"pensionId": "",
+"pensionIdOrNationalId": ""
+}
+}
+},
+{
+"billerId": "gov001",
+"name": "Surokkha ",
+"description": "Government Universal Pension",
+"fieldMetaList": [
+{
+"name": "dueAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 7,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Due Amount"
+}
+]
+},
+{
+"name": "pensionIdOrNationalId",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 17,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Input PID/NID",
+"validationRegex": null,
+"isBeneficiaryField": "Y",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 1,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "NID/PID"
+},
+{
+"language": "bn",
+"label": "এ / "
+}
+]
+},
+{
+"name": "numberInstallDue",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 10,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 6,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "No. of Installment Due"
+}
+]
+},
+{
+"name": "schemeName",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 4,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Scheme"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "customerName",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 100,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 3,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Name"
+}
+]
+},
+{
+"name": "applicableFine",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 15,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 8,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Applicable Fine"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "payableAmount",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "Y",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 9,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Total Due Amount"
+}
+]
+},
+{
+"name": "pensionId",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 17,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "Y",
+"sequence": 2,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Pension ID"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "installmentAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 5,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Installment Amount"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+}
+],
+"icon": null,
+"billInfo": {
+"actionUrl": "/sundry-biller/v1/pension/fetch/bill/info",
+"requestParams": {
+"pensionIdOrNationalId": ""
+}
+},
+"billPayment": {
+"actionUrl": "/sundry-biller/v1/pension/bill/payment",
+"requestParams": {
+"pensionIdOrNationalId": "",
+"payableAmount": "",
+"pensionId": ""
+}
+}
+},
+{
+"billerId": "gov004",
+"name": "Probash",
+"description": "Government Universal Pension(Remittance)",
+"fieldMetaList": [
+{
+"name": "customerName",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 100,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 4,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Name"
+}
+]
+},
+{
+"name": "pensionId",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 17,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "Y",
+"sequence": 3,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Pension ID"
+}
+]
+},
+{
+"name": "payableAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "Y",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 9,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Total Due Amount"
+}
+]
+},
+{
+"name": "numberOfAdvInstallment",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 4,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "No. Of Advance Installment",
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "N",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 2,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "No. Of Advance Installment"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "numberInstallDue",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 10,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 6,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "No. of Installment Due"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "schemeName",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 5,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Scheme"
+}
+]
+},
+{
+"name": "applicableFine",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 15,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 8,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Applicable Fine"
+}
+]
+},
+{
+"name": "pensionIdOrNationalId",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 17,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Input PID/NID",
+"validationRegex": null,
+"isBeneficiaryField": "Y",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 1,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": "এ / "
+},
+{
+"language": "en",
+"label": "NID/PID"
+}
+]
+},
+{
+"name": "dueAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 17,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 7,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Due Amount"
+}
+]
+},
+{
+"name": "additionalAmount",
+"fieldType": "hidden",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 10,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Additional Amount"
+},
+{
+"language": "bn",
+"label": "Additional Amount"
+}
+]
+}
+],
+"icon": null,
+"billInfo": {
+"actionUrl": "/sundry-biller/v1/pension/fetch/bill/info",
+"requestParams": {
+"numberOfAdvInstallment": "",
+"pensionIdOrNationalId": ""
+}
+},
+"billPayment": {
+"actionUrl": "/sundry-biller/v1/pension/bill/payment",
+"requestParams": {
+"pensionId": "",
+"payableAmount": "",
+"pensionIdOrNationalId": "",
+"additionalAmount": ""
+}
+}
+},
+{
+"billerId": "gov005",
+"name": "Probash",
+"description": "Government Universal Pension(Citytouch)",
+"fieldMetaList": [
+{
+"name": "pensionId",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 17,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "Y",
+"sequence": 2,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Pension ID"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "schemeName",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 4,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Scheme"
+}
+]
+},
+{
+"name": "customerName",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 100,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 3,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Name"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "payableAmount",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "Y",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 9,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Total Due Amount"
+}
+]
+},
+{
+"name": "numberInstallDue",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 10,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 6,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "No. of Installment Due"
+}
+]
+},
+{
+"name": "pensionIdOrNationalId",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 17,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Input PID/NID",
+"validationRegex": null,
+"isBeneficiaryField": "Y",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 1,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": "এ / "
+},
+{
+"language": "en",
+"label": "NID/PID"
+}
+]
+},
+{
+"name": "applicableFine",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 15,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 8,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Applicable Fine"
+}
+]
+},
+{
+"name": "installmentAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 5,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Installment Amount"
+}
+]
+},
+{
+"name": "dueAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 7,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Due Amount"
+}
+]
+}
+],
+"icon": null,
+"billInfo": {
+"actionUrl": "/sundry-biller/v1/pension/fetch/bill/info",
+"requestParams": {
+"pensionIdOrNationalId": ""
+}
+},
+"billPayment": {
+"actionUrl": "/sundry-biller/v1/pension/bill/payment",
+"requestParams": {
+"pensionId": "",
+"payableAmount": "",
+"pensionIdOrNationalId": ""
+}
+}
+}
+]
+},
+{
+"name": "Gas",
+"code": "UTL-GAS",
+"description": "Gas Service",
+"icon": null,
+"billerInformationList": [
+{
+"billerId": "g001",
+"name": "Jalalabad",
+"description": "Jalalabad Gas Transmission Limited",
+"fieldMetaList": [
+{
+"name": "billAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 3,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Bill Amount"
+}
+]
+},
+{
+"name": "billAccountNumber",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 2,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Input Bill Account Number",
+"validationRegex": null,
+"isBeneficiaryField": "Y",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "Y",
+"sequence": 1,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Bill Account Number"
+}
+]
+},
+{
+"name": "totalBillAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "Y",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 5,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Total Bill Amount"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "mobileNumber",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 11,
+"maxLength": 14,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Input Mobile Number 01XXXXXXXXX",
+"validationRegex": null,
+"isBeneficiaryField": "Y",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 2,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Mobile"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "lateFee",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 4,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Late Fee"
+}
+]
+}
+],
+"icon": null,
+"billInfo": {
+"actionUrl": "/dynamic-biller/v1/fetch/bill/info",
+"requestParams": {
+"billAccountNumber": "",
+"mobileNumber": ""
+}
+},
+"billPayment": {
+"actionUrl": "/dynamic-biller/v1/bill/payment",
+"requestParams": {
+"billAccountNumber": "",
+"totalBillAmount": "",
+"mobileNumber": ""
+}
+}
+},
+{
+"billerId": "g003",
+"name": "Paschimanchal Gas",
+"description": "Paschimanchal Gas Company Limited",
+"fieldMetaList": [
+{
+"name": "mobile",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 11,
+"maxLength": 14,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Input Mobile Number 01XXXXXXXXX",
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 2,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Registered Mobile Number"
+}
+]
+},
+{
+"name": "billAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 3,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Bill Amount"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "totalBillAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "Y",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 5,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Total Bill Amount"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "surcharge",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 4,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Surcharge"
+}
+]
+},
+{
+"name": "billAccountNumber",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Input Bill Account Number",
+"validationRegex": null,
+"isBeneficiaryField": "Y",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "Y",
+"sequence": 1,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Bill Account Number"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+}
+],
+"icon": null,
+"billInfo": {
+"actionUrl": "/dynamic-biller/v1/fetch/bill/info",
+"requestParams": {
+"mobile": "",
+"billAccountNumber": ""
+}
+},
+"billPayment": {
+"actionUrl": "/dynamic-biller/v1/bill/payment",
+"requestParams": {
+"mobile": "",
+"billAmount": "",
+"totalBillAmount": "",
+"surcharge": "",
+"billAccountNumber": ""
+}
+}
+},
+{
+"billerId": "g002",
+"name": "Bakhrabad",
+"description": "Bakhrabad Gas",
+"fieldMetaList": [
+{
+"name": "billAccountNumber",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 4,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Input Bill Account Number",
+"validationRegex": null,
+"isBeneficiaryField": "Y",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "Y",
+"sequence": 1,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Bill Account Number"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "toDate",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 5,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 5,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "To Date"
+}
+]
+},
+{
+"name": "fromDate",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 5,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 4,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "From Date"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "billAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 7,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Bill Amount"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "billerType",
+"fieldType": "select",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": "NM",
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "N",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 3,
+"isMandatory": "Y",
+"options": [
+{
+"name": "Non Metered",
+"value": "NM"
+}
+],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " ধ "
+},
+{
+"language": "en",
+"label": "Biller Type"
+}
+]
+},
+{
+"name": "lateFee",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "N",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 8,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Late Fee"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "billDueDate",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 5,
+"maxLength": 20,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 6,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Bill Due Date"
+},
+{
+"language": "bn",
+"label": " ধ "
+}
+]
+},
+{
+"name": "mobile",
+"fieldType": "textbox",
+"dataType": "text",
+"minLength": 11,
+"maxLength": 14,
+"isPayableAmount": "N",
+"defaultValue": null,
+"textAlign": "left",
+"placeholder": "Input Mobile Number 01XXXXXXXXX",
+"validationRegex": null,
+"isBeneficiaryField": "Y",
+"requireForBillInfo": "Y",
+"requireForBillPayment": "Y",
+"isCurrency": "N",
+"isBillNumber": "N",
+"sequence": 2,
+"isMandatory": "Y",
+"options": [],
+"fieldLabels": [
+{
+"language": "en",
+"label": "Online Registered Mobile Number"
+},
+{
+"language": "bn",
+"label": " "
+}
+]
+},
+{
+"name": "totalBillAmount",
+"fieldType": "readonly",
+"dataType": "text",
+"minLength": 1,
+"maxLength": 11,
+"isPayableAmount": "Y",
+"defaultValue": null,
+"textAlign": "right",
+"placeholder": null,
+"validationRegex": null,
+"isBeneficiaryField": "N",
+"requireForBillInfo": "N",
+"requireForBillPayment": "Y",
+"isCurrency": "Y",
+"isBillNumber": "N",
+"sequence": 9,
+"isMandatory": "N",
+"options": [],
+"fieldLabels": [
+{
+"language": "bn",
+"label": " "
+},
+{
+"language": "en",
+"label": "Total Bill Amount"
+}
+]
+}
+],
+"icon": null,
+"billInfo": {
+"actionUrl": "/dynamic-biller/v1/fetch/bill/info",
+"requestParams": {
+"billAccountNumber": "",
+"billerType": "",
+"mobile": ""
+}
+},
+"billPayment": {
+"actionUrl": "/dynamic-biller/v1/bill/payment",
+"requestParams": {
+"billAccountNumber": "",
+"toDate": "",
+"fromDate": "",
+"billDueDate": "",
+"mobile": "",
+"totalBillAmount": ""
+}
+}
+}
+]
+}
+]
+}
+],
+"responseCode": 200,
+"responseMessages": [
+"Operation Successful"
+]
+}
