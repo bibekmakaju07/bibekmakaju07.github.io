@@ -4992,7 +4992,7 @@
 "requireForBillPayment": "Y",
 "isCurrency": "N",
 "isBillNumber": "Y",
-"sequence": 1,
+"sequence": 99,
 "isMandatory": "Y",
 "options": [],
 "fieldLabels": [
